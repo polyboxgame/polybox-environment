@@ -1,0 +1,14 @@
+{
+  "customizations": {
+    "codespaces": {
+      "repositories": {
+        "polyboxgame/polybox-server": {
+          "ermissions": "*"
+        },
+        "polyboxgame/polybox-client": {
+          "ermissions": "*"
+        }
+      }
+    }
+  }
+}
