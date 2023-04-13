@@ -3,10 +3,10 @@
     "codespaces": {
       "repositories": {
         "polyboxgame/polybox-server": {
-          "ermissions": "*"
+          "permissions": "*"
         },
         "polyboxgame/polybox-client": {
-          "ermissions": "*"
+          "permissions": "*"
         }
       }
     }
