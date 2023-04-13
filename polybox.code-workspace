@@ -1,13 +1,21 @@
-jc jd{
+{
     "folders": [
-        {
-            "path": "./"
-        },
         {
             "path": "./polybox-client"
         },
         {
             "path": "./polybox-server"
         }
-    ]
+    ],
+    "settings": {
+        "files.exclude": {
+            "**/.git": true,
+            "**/.svn": true,
+            "**/.hg": true,
+            "**/CVS": true,
+            "**/.DS_Store": true,
+            "**/Thumbs.db": true,
+            "**/*.crswap": true
+        }
+    }
 }
