@@ -1,12 +1,23 @@
 #!/bin/bash
 
+# Make folders for repositories
 mkdir polybox-client;
 mkdir polybox-server;
+
+# Setup client
 cd ./polybox-client;
-git init;
+git init --quiet; # --quiet to hide hints about default branch
 git remote add origin https://github.com/polyboxgame/polybox-client.git;
+git branch --set-upstream-to origin main
+git pull origin main;
 git checkout main;
+npm i; # Install npm packages that are required for the project to run
+
+# Setup server
 cd ../polybox-server;
-git init;
+git init --quiet;
 git remote add origin https://github.com/polyboxgame/polybox-server.git;
+git branch --set-upstream-to origin main;
+git pull origin main;
 git checkout main;
+npm i;
