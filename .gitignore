@@ -1,2 +1,7 @@
+# Node
+package-lock.json
+node_modules/
+
+# Prevent duplications of repositories
 polybox-server/
 polybox-client/
