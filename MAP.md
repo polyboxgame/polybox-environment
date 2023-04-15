@@ -27,9 +27,10 @@ The unofficial update to diep.io.
 - README.md
   - Description and instructions for using the license (WIP)
 
-## codespace
+## polybox-environment
 #### Contains the code for Codespace, a development environment for working on Polybox. It includes an initialization script, the Polybox workspace configuration file, and a README file with instructions for using Codespace.
-- init.sh
+- init.sh (linux)
+- init.bat (windows)
 - polybox.code-workspace
 - README.md
   - Description and instructions for using Codespace
