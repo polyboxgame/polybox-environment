@@ -19,3 +19,7 @@ git remote add origin https://github.com/polyboxgame/polybox-server.git
 git pull origin main
 git checkout main
 npm i
+
+:: Display message when done
+echo Done! Now you just need to open the code-workspace file in your favorite IDE that supports it.
+echo Feel free to exit now.
