@@ -1,4 +1,4 @@
-# codespace
+# polybox-environment
 ### How to use
 - Create a github codespace
 - Run the init.sh file by opening a terminal and running ```bash init.sh```
