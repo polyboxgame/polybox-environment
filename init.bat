@@ -23,3 +23,4 @@ npm i
 :: Display message when done
 echo Done! Now you just need to open the code-workspace file in your favorite IDE that supports it.
 echo Feel free to exit now.
+pause
