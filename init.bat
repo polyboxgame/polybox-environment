@@ -9,7 +9,7 @@ cd ./polybox-client
 git init --quiet
 git remote add origin https://github.com/polyboxgame/polybox-client.git
 git pull origin main
-git checkout main
+git switch main
 npm i
 
 :: Setup server
@@ -17,7 +17,7 @@ cd ../polybox-server
 git init --quiet
 git remote add origin https://github.com/polyboxgame/polybox-server.git
 git pull origin main
-git checkout main
+git switch main
 npm i
 
 :: Display message when done
