@@ -1,6 +1,9 @@
 {
     "folders": [
         {
+            "path": "./"
+        },
+        {
             "path": "./polybox-client"
         },
         {
@@ -15,7 +18,14 @@
             "**/CVS": true,
             "**/.DS_Store": true,
             "**/Thumbs.db": true,
-            "**/*.crswap": true
+            "**/*.crswap": true,
+            "**/node_modules": true,
+            "**/package-lock.json": true,
+            "**/build": true,
+            "**/.devcontainer": true,
+            "polybox.code-workspace": true,
+            "polybox-client": true,
+            "polybox-server": true,
         }
     }
 }
