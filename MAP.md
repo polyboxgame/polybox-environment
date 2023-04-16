@@ -32,6 +32,7 @@ The unofficial update to diep.io.
 - init.sh (linux)
 - init.bat (windows)
 - polybox.code-workspace
+- scripts.js
 - README.md
   - Description and instructions for using Codespace
 
