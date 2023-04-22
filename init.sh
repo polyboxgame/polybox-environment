@@ -19,3 +19,7 @@ git remote add origin https://github.com/polyboxgame/polybox-server.git;
 git pull origin main;
 git switch main;
 npm i;
+
+# Setup environment
+cd ../;
+npm i;

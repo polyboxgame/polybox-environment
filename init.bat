@@ -20,6 +20,10 @@ git pull origin main
 git switch main
 call npm i
 
+:: Setup environment
+cd ../
+call npm i;
+
 :: Display message when done
 echo Done! Now you just need to open the code-workspace file in your favorite IDE that supports it.
 pause
