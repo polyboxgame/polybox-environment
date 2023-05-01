@@ -27,5 +27,10 @@
             "polybox-client": true,
             "polybox-server": true,
         }
+    },
+    "extensions": {
+        "recommendations": [
+            "aaron-bond.better-comments"
+        ]
     }
 }
