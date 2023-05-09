@@ -1,5 +1,10 @@
 {
   "dependencies": {
     "concurrently": "^8.0.1"
+  },
+  "scripts": {
+    "run": "node index -run",
+    "build": "node index -build",
+    "watch": "node index -watch"
   }
 }
